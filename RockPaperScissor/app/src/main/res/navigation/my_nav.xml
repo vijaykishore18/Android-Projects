@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.rockpaperscissor.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_userOne"
+            app:destination="@id/userOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/userOne"
+        android:name="com.example.rockpaperscissor.UserOneFragment"
+        android:label="fragment_user_one"
+        tools:layout="@layout/fragment_user_one" >
+        <action
+            android:id="@+id/action_userOne_to_userTwo"
+            app:destination="@id/userTwo"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_userOne_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/userTwo"
+        android:name="com.example.rockpaperscissor.UserTwoFragment"
+        android:label="fragment_user_two"
+        tools:layout="@layout/fragment_user_two" >
+        <action
+            android:id="@+id/action_userTwo_to_result"
+            app:destination="@id/result" />
+        <action
+            android:id="@+id/action_userTwo_to_userOne"
+            app:destination="@id/userOne"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/result"
+        android:name="com.example.rockpaperscissor.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_result_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/headlinesFragment"
+        android:title="Home"
+        android:icon="@drawable/home_img" />
+
+    <item
+        android:id="@+id/exploreFragment2"
+        android:title="Explore"
+        android:icon="@drawable/explore_img" />
+    <item
+
+        android:id="@+id/savedFragment2"
+        android:title="Saved"
+        android:icon="@drawable/save_img" />
+
+
+</menu>

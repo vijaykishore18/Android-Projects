@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="app_oneline">Forecast at your fingertips!</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.assignment6e_commerce.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.assignment6e_commerce.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homePage_to_samsungFragment"
+            app:destination="@id/samsungFragment" />
+        <action
+            android:id="@+id/action_homePage_to_earbudsFragment"
+            app:destination="@id/earbudsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/samsungFragment"
+        android:name="com.example.assignment6e_commerce.SamsungFragment"
+        android:label="fragment_samsung"
+        tools:layout="@layout/fragment_samsung" >
+        <action
+            android:id="@+id/action_samsungFragment_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/earbudsFragment"
+        android:name="com.example.assignment6e_commerce.EarbudsFragment"
+        android:label="fragment_earbuds"
+        tools:layout="@layout/fragment_earbuds" >
+        <action
+            android:id="@+id/action_earbudsFragment_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+</navigation>

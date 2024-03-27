@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">V SHOP</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_wishlist"><b>Your Wishlist : 2</b></string>
+    <string name="samsung_mobile"><b>S7 Edge</b></string>
+    <string name="apple_airpods"><b>Apple Airpods</b></string>
+    <string name="title">V SHOP</string>
+    <string name="sub_title">Your one stop shop for A - Z products!</string>
+    <string name="lets_shop">Lets Shop</string>
+    <string name="home_name">Enter Your Name</string>
+    <string name="welcome_dummy">Welcome</string>
+    <string name="back_button">Back</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice View Model</string>
+    <string name="title_text">View Model</string>
+    <string name="increase">Increase</string>
+    <string name="number">0</string>
+    <string name="decrease">Decrease</string>
+</resources>

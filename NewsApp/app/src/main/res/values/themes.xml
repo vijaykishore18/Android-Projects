@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NewsApp" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="colorPrimaryVariant">@color/maroon</item>
+        <item name="android:statusBarColor">@color/maroon</item>
+        
+    </style>
+
+    <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        
+        <item name="android:color">@color/silver</item>
+        
+    </style>
+</resources>

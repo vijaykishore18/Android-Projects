@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Name</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="myself">"""Hello, I'm Vijay, and my professional journey revolves around the dynamic field of Android development. As an Android developer, I find immense satisfaction in creating innovative and user-friendly applications. It's a realm that constantly challenges me to stay updated and embrace the ever-evolving landscape of technology.
+
+Beyond the coding and debugging, my personal life is a vibrant tapestry woven with diverse interests. Photography is a passion that allows me to capture and freeze moments in time, turning ordinary scenes into extraordinary memories. When not behind the lens, I find joy in exploring the culinary arts, experimenting with flavors, and whipping up delightful creations in the kitchen.
+
+Music is another integral part of my life. Strumming away on my guitar provides a creative outlet, where each chord becomes a form of self-expression. The gentle hum of strings resonates with my soul and offers a welcome break from the structured world of coding.
+
+On weekends, I relish the escape offered by a good book or the call of the great outdoors. Science fiction novels transport me to otherworldly realms, while hiking trails allow me to reconnect with nature and recharge for the week ahead.
+
+In navigating this journey called life, my aim is to strike a harmonious balance between my professional aspirations as an Android developer and the rich tapestry of hobbies that bring color and depth to my world. """
+</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>

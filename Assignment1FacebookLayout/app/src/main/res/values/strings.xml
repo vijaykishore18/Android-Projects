@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Facebook Layout</string>
+    <string name="header_text">News Feed</string>
+    <string name="profile1_name"><b>Bigg Bals</b> and <b>Joseph</b></string>
+    <string name="profile2_name"><b>Raghuram</b></string>
+    <string name="post1_time">10 minutes ago</string>
+    <string name="post2_time">2 hours ago</string>
+    <string name="caption">Had a Good Time with Joseph!😉\n#friendship</string>
+    <string name="like_comments">100 likes  29 comments</string>
+    <string name="like_button"> LIKE</string>
+    <string name="share_button"> SHARE</string>
+    <string name="comment_button"> COMMENT</string>
+    <string name="status"><b>  STATUS</b></string>
+    <string name="cam"><b>  CAMERA</b></string>
+    <string name="map"><b>  MAP</b></string>
+</resources>

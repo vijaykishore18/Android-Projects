@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment 1 (Calculator)</string>
+    <string name="clear">CLEAR</string>
+    <string name="num_0">0</string>
+    <string name="num_9">9</string>
+    <string name="num_8">8</string>
+    <string name="num_7">7</string>
+    <string name="num_6">6</string>
+    <string name="num_5">5</string>
+    <string name="num_4">4</string>
+    <string name="num_3">3</string>
+    <string name="num_2">2</string>
+    <string name="num_1">1</string>
+    <string name="price_text1">Price : 2.34</string>
+    <string name="price_text2">$20 : 0</string>
+    <string name="price_text3">$10 : 0</string>
+    <string name="price_text4">$5 : 0</string>
+    <string name="price_text5">$1 : 0</string>
+    <string name="price_text6">₹20 : 0</string>
+    <string name="price_text7">₹10 : 0</string>
+    <string name="price_text8">₹5 : 0</string>
+    <string name="price_text9">₹1 : 0</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="myViewModel"
+            type="com.example.assignment6e_commerce.LiveDataViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20sp"
+        tools:context=".EarbudsFragment">
+
+
+        <ImageView
+            android:id="@+id/ear_back"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ear_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/apple_airpods"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@+id/ear_back"
+            app:layout_constraintTop_toBottomOf="@+id/ear_back" />
+
+        <ImageView
+            android:id="@+id/ear_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/earbuds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ear_name" />
+
+        <ImageView
+            android:onClick="@{myViewModel::decrementCounter}"
+            android:id="@+id/ear_minus"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/minus"
+            app:layout_constraintEnd_toStartOf="@+id/ear_counter"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ear_counter" />
+
+        <ImageView
+            android:onClick="@{myViewModel::incrementCounter}"
+            android:id="@+id/ear_plus"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ear_counter"
+            app:layout_constraintTop_toTopOf="@+id/ear_counter" />
+
+        <TextView
+            android:id="@+id/ear_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@{myViewModel.counter.toString()}"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toStartOf="@+id/ear_plus"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ear_minus"
+            app:layout_constraintTop_toBottomOf="@+id/ear_img" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
